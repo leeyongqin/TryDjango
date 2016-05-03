@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	{% for item in obj_list %}
+		{% url "posts:detail" id=item.id %}</br>
+		<a href="{{ item.get_absolute_url }}">{{item.id}}</a></br>
+		{{item.title}}</br>
+		{{item.content}}</br>
+		{{item.updated}}</br>
+		{{item.timestamp}}</br>
+	{% endfor %}
+</body>
+</html>

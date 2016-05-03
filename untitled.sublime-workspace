@@ -1,0 +1,479 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"post_de",
+				"post_delete	function"
+			],
+			[
+				"po",
+				"post_list	function"
+			],
+			[
+				"vi",
+				"views	module"
+			],
+			[
+				"Htt",
+				"HttpResponse	class"
+			],
+			[
+				"u",
+				"urls	module"
+			],
+			[
+				"pos",
+				"posts	module"
+			],
+			[
+				"__",
+				"__unicode__"
+			],
+			[
+				"Pos",
+				"PostAdmin"
+			],
+			[
+				"auto",
+				"auto_now_add	param"
+			],
+			[
+				"Dat",
+				"DateTimeField	class"
+			],
+			[
+				"model",
+				"models	module"
+			],
+			[
+				"ch",
+				"CharField	class"
+			],
+			[
+				"mod",
+				"models	module"
+			],
+			[
+				"sto",
+				"stock_list	statement"
+			],
+			[
+				"get_",
+				"get_stocklist	function"
+			],
+			[
+				"bo",
+				"body"
+			],
+			[
+				"ce",
+				"cellspacing	Attr"
+			],
+			[
+				"ta",
+				"table	Tag"
+			],
+			[
+				"pa",
+				"parentNode"
+			],
+			[
+				"te",
+				"testDom"
+			],
+			[
+				"chi",
+				"childNodes"
+			],
+			[
+				"s",
+				"sender	statement"
+			],
+			[
+				"se",
+				"sendmail	function"
+			],
+			[
+				"ms",
+				"msg	statement"
+			],
+			[
+				"mim",
+				"mime	module"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"ur",
+				"urls"
+			],
+			[
+				"sts",
+				"staticfiles_urlpatterns"
+			],
+			[
+				"url",
+				"urlpatterns"
+			],
+			[
+				"con",
+				"contrib"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"li",
+				"li	Tag"
+			],
+			[
+				"di",
+				"div	Tag"
+			],
+			[
+				"met",
+				"meta"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!DOCTYPE html>\n<html>\n<head>\n	<title></title>\n</head>\n<body>\n	<p>This is a template in root folder</p>\n</body>\n</html>",
+			"file": "templates/index.html",
+			"file_size": 119,
+			"file_write_time": 131066801779331013,
+			"settings":
+			{
+				"buffer_size": 119,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 391.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"sublimeRepl",
+				"SublimeREPL: Python"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"print (123)",
+			"print 123",
+			"print \"oo\"",
+			"python",
+			"pwd",
+			"ls",
+			"items.json",
+			"python",
+			"scrapy",
+			"cd ..",
+			"cd",
+			"ls",
+			"scrapy crawl dmoz",
+			"terminal",
+			"cmd",
+			"python",
+			"print 'oo'",
+			"print oo",
+			"scrapy",
+			"scrapy crawl dmoz -o items.json -t json",
+			"scrapy crawl dmoz",
+			"python scrapy crawl dmoz",
+			"scrapy crawl dmoz",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/jack/PycharmProjects/Django_Example/trydjango",
+		"/home/jack/PycharmProjects/Django_Example/trydjango/posts",
+		"/home/jack/PycharmProjects/Django_Example/trydjango/posts/templates",
+		"/home/jack/PycharmProjects/Django_Example/trydjango/posts/templates/posts",
+		"/home/jack/PycharmProjects/Django_Example/trydjango/posts/templates/posts/bootstrap",
+		"/home/jack/PycharmProjects/Django_Example/trydjango/posts/templates/posts/bootstrap/css",
+		"/home/jack/PycharmProjects/Django_Example/trydjango/posts/templates/posts/bootstrap/fonts",
+		"/home/jack/PycharmProjects/Django_Example/trydjango/posts/templates/posts/bootstrap/js"
+	],
+	"file_history":
+	[
+		"/home/jack/PycharmProjects/Django_Example/trydjango/trydjango/settings.py",
+		"/home/jack/PycharmProjects/Django_Example/trydjango/posts/models.py",
+		"/home/jack/PycharmProjects/Django_Example/trydjango/trydjango/urls.py",
+		"/home/jack/PycharmProjects/Django_Example/trydjango/posts/views.py",
+		"/home/jack/PycharmProjects/Django_Example/trydjango/posts/templates/posts/bootstrap/fonts/glyphicons-halflings-regular.eot",
+		"/home/jack/PycharmProjects/Django_Example/trydjango/posts/template/index.html",
+		"/home/jack/PycharmProjects/Django_Example/trydjango/posts/urls.py",
+		"/home/jack/PycharmProjects/Django_Example/trydjango/posts/admin.py",
+		"/home/jack/Py_File/Git_Hub/my_blog/blog/static/index.html",
+		"/home/jack/Py_File/Git_Hub/my_blog/blog/static/javascript_example.html",
+		"/home/jack/Py_File/Git_Hub/untitled.py",
+		"/home/jack/.config/sublime-text-3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/home/jack/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/untitled.py",
+		"/home/jack/Mail_Python/template.html",
+		"/home/jack/untitled.py",
+		"/home/jack/Py_File/Git_Hub/scrapy_example/tutorial/tutorial/spiders/dmoz_spider.py",
+		"/home/jack/.config/sublime-text-3/Packages/User/Python.sublime-settings",
+		"/home/jack/Py_File/Git_Hub/my_blog/blog/static/css/style.css",
+		"/home/jack/Py_File/Git_Hub/my_blog/blog/views.py",
+		"/home/jack/Py_File/Git_Hub/my_blog/blog/urls.py",
+		"/home/jack/Py_File/Git_Hub/my_blog/app/urls.py",
+		"/home/jack/Py_File/Git_Hub/my_blog/django_wsgi.py",
+		"/home/jack/Py_File/test.py",
+		"/home/jack/Py_File/Git_Hub/my_blog/blog/templates/index.html",
+		"/home/jack/Py_File/Git_Hub/my_blog/blog/static/js/jquery.js"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"url(r'^$', views.post_list),",
+			"<button class=\"btn-default\" onclick=\"createText()\" value=\"Button\">Create Text</button>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "templates/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 119,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								119,
+								119
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.autopep8":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 160.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 112.0
+	},
+	"pinned_build_system": "",
+	"project": "untitled.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 76.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Post"
+			]
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 412.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
