@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"con",
+				"contrib	module"
+			],
+			[
+				"Ht",
+				"HttpResponseRedirect	class"
+			],
+			[
+				"Po",
+				"PostForm	class"
+			],
+			[
+				"re",
+				"reverse	function"
+			],
+			[
+				"url",
+				"urlresolvers	module"
+			],
+			[
+				"co",
+				"core	module"
+			],
+			[
+				"get",
+				"get_object_or_404	function"
+			],
+			[
+				"el",
+				"else	keyword"
+			],
+			[
 				"post_de",
 				"post_delete	function"
 			],
@@ -124,14 +156,6 @@
 				"staticfiles_urlpatterns"
 			],
 			[
-				"url",
-				"urlpatterns"
-			],
-			[
-				"con",
-				"contrib"
-			],
-			[
 				"mar",
 				"margin"
 			],
@@ -152,13 +176,45 @@
 	"buffers":
 	[
 		{
-			"contents": "<!DOCTYPE html>\n<html>\n<head>\n	<title></title>\n</head>\n<body>\n	<p>This is a template in root folder</p>\n</body>\n</html>",
-			"file": "templates/index.html",
-			"file_size": 119,
-			"file_write_time": 131066801779331013,
+			"file": "posts/views.py",
 			"settings":
 			{
-				"buffer_size": 119,
+				"buffer_size": 1586,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html>\n<head>\n	<title>Post Form</title>\n</head>\n<body>\n\n\n<form method=\"POST\" action=\"\">\n	{%  csrf_token %}\n	{{ form.as_p }}\n	<input type=\"submit\" value=\"Create Post\"/>\n</form>\n</body>\n</html>",
+			"file": "posts/templates/posts/post_form.html",
+			"file_size": 394,
+			"file_write_time": 131068365124388215,
+			"settings":
+			{
+				"buffer_size": 207,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "posts/urls.py",
+			"settings":
+			{
+				"buffer_size": 966,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "posts/templates/posts/detail.html",
+			"settings":
+			{
+				"buffer_size": 380,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "posts/models.py",
+			"settings":
+			{
+				"buffer_size": 574,
 				"line_ending": "Unix"
 			}
 		}
@@ -275,20 +331,20 @@
 		"/home/jack/PycharmProjects/Django_Example/trydjango/posts",
 		"/home/jack/PycharmProjects/Django_Example/trydjango/posts/templates",
 		"/home/jack/PycharmProjects/Django_Example/trydjango/posts/templates/posts",
-		"/home/jack/PycharmProjects/Django_Example/trydjango/posts/templates/posts/bootstrap",
-		"/home/jack/PycharmProjects/Django_Example/trydjango/posts/templates/posts/bootstrap/css",
-		"/home/jack/PycharmProjects/Django_Example/trydjango/posts/templates/posts/bootstrap/fonts",
-		"/home/jack/PycharmProjects/Django_Example/trydjango/posts/templates/posts/bootstrap/js"
+		"/home/jack/PycharmProjects/Django_Example/trydjango/trydjango"
 	],
 	"file_history":
 	[
+		"/home/jack/PycharmProjects/Django_Example/trydjango/posts/urls.py",
+		"/home/jack/PycharmProjects/Django_Example/trydjango/trydjango/urls.py",
+		"/home/jack/PycharmProjects/Django_Example/trydjango/posts/templates/posts/index.html",
+		"/home/jack/PycharmProjects/Django_Example/trydjango/posts/forms.py",
+		"/home/jack/PycharmProjects/Django_Example/trydjango/templates/index.html",
 		"/home/jack/PycharmProjects/Django_Example/trydjango/trydjango/settings.py",
 		"/home/jack/PycharmProjects/Django_Example/trydjango/posts/models.py",
-		"/home/jack/PycharmProjects/Django_Example/trydjango/trydjango/urls.py",
 		"/home/jack/PycharmProjects/Django_Example/trydjango/posts/views.py",
 		"/home/jack/PycharmProjects/Django_Example/trydjango/posts/templates/posts/bootstrap/fonts/glyphicons-halflings-regular.eot",
 		"/home/jack/PycharmProjects/Django_Example/trydjango/posts/template/index.html",
-		"/home/jack/PycharmProjects/Django_Example/trydjango/posts/urls.py",
 		"/home/jack/PycharmProjects/Django_Example/trydjango/posts/admin.py",
 		"/home/jack/Py_File/Git_Hub/my_blog/blog/static/index.html",
 		"/home/jack/Py_File/Git_Hub/my_blog/blog/static/javascript_example.html",
@@ -325,6 +381,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"{{ object.id }}</br>\n	",
 			"url(r'^$', views.post_list),",
 			"<button class=\"btn-default\" onclick=\"createText()\" value=\"Button\">Create Text</button>"
 		],
@@ -344,24 +401,112 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "templates/index.html",
+					"file": "posts/views.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 119,
+						"buffer_size": 1586,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								119,
-								119
+								830,
+								830
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 96.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "posts/templates/posts/post_form.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 207,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								71,
+								71
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "posts/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 966,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								918,
+								918
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "posts/templates/posts/detail.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 380,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								308,
+								308
 							]
 						],
 						"settings":
@@ -373,6 +518,34 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "posts/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 574,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								39,
+								39
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -452,7 +625,7 @@
 	},
 	"select_symbol":
 	{
-		"height": 76.0,
+		"height": 392.0,
 		"last_filter": "",
 		"selected_items":
 		[
@@ -471,7 +644,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 412.0,
+	"side_bar_width": 368.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

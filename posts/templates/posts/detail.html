@@ -4,9 +4,11 @@
 	<title>{{ title }}</title>
 </head>
 <body>
-	{{ object.id }}</br>
-	{{ object.title }}</br>
-	{{ object.timestamp }}</br>
-	{{ object.content }}</br>
+<h1>Detail</h1>
+{% include "posts/message_display.html" %}
+{{ object.id }}</br>
+{{ object.title }}</br>
+{{ object.timestamp }}</br>
+{{ object.content }}</br>
 </body>
 </html>

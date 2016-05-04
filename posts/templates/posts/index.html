@@ -1,9 +1,12 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
+{% extends "posts/base.html" %}
+
+{% block title %}
+Index | {{ block.super }}
+{% endblock title %}
+
+{% block content %}
+	{{ block.super }}
+	<h1>{{ title }} is not working</h1>
 	{% for item in obj_list %}
 		{% url "posts:detail" id=item.id %}</br>
 		<a href="{{ item.get_absolute_url }}">{{item.id}}</a></br>
@@ -12,5 +15,4 @@
 		{{item.updated}}</br>
 		{{item.timestamp}}</br>
 	{% endfor %}
-</body>
-</html>
+{% endblock content %}
